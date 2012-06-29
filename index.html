@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student-Teacher Ratio Aggregates in CA Public Schools</title>
+    <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+    <meta name='description'
+      content='CA public school student-teacher ratios. Point data aggregated to county level' />
+    <link
+      href='css/site.css'
+      type='text/css' rel='stylesheet' />
+  </head>
+  <body>
+      <div class='container'>
+        <div class='drawer'></div>
+        <div id='map'><iframe src='https://war.cartodb.com/tables/nces_public_schools_student_teacher_ratio/embed_map' width='100%' height='100%'></iframe></div>
+        <div class='left'>
+          <h1><span>Student-Teacher Ratios</span></h1>
+          <p>Student-teacher ratio is the number of teachers divided by the number of students. A low ratio is often a selling point, while a <a href='http://www.brookings.edu/research/papers/2011/05/11-class-size-whitehurst-chingos'>high ratio</a> can indicate a lack; anything from public funding to poor performance or a focal point of community stress.</p>
+		  <p>Pan and zoom on the map. For more detailed information click on a county. </p>
+
+		<h3>Methodology</h3>
+
+          <p>Individual school data is aggregated to the county level. This is a work in progress. Further analysis is necessary to normalize aggregates based on grade level, type (charter and magnet vs 'standard' public schools), etc. This map gives a general view of student-teacher ratio.</p>
+		  
+		<h3 style="margin-bottom: -10px;">Legend</h3>
+
+          <p><div class="circleBase type1" style="margin: 11px 0 0 10px"></div><div class="circleBase type3" style="margin: 7px 0 0 2px"></div><div class="circleBase type5" style="margin-left:2px"></div>Count of Schools in County</p>
+		  <p><div class="type5" style="float: left; background:rgb(239,243,255); margin-left: 10px"></div><div class="type5" style="float: left; background:rgb(107,174,214)"></div><div class="type5" style="float: left; background:rgb(8,81,156); margin-right: 10px"></div>Increasing Student-Teacher Ratio</p>
+          <div class='footer'>
+            <p><a href="http://nces.edu.gov">NCES</a> school data provided by <a href="http://v2.factual.com/ts/bRKApR">Factual</a>. Maps rendered and served with <a href='http://cartodb.com'>CartoDB</a> and styled with <a href="http://mapbox.com/carto/">CartoCSS</a>. Style based on <a href="https://github.com/tmcw/superfund" style="background:#FFFF92">Your Superfund</a>.
+            </p>
+            <br />
+          </div>
+		  
+		</div>
+	</div>
+  </body>
+</html>
